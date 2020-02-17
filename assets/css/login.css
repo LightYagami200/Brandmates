@@ -1,0 +1,50 @@
+/* Body */
+body {
+  background: url('../img/header-bg.png') no-repeat top center;
+}
+
+/* Login */
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login .logo {
+  margin-top: 32px;
+  align-self: auto;
+}
+
+#login .logo img {
+  height: 80px;
+  width: auto;
+}
+
+#login-card {
+  background: #fff;
+  box-shadow: 1px 1px 3px 1px #00000022;
+  padding: 24px 32px;
+  margin-top: 80px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 32px;
+}
+
+#sign-up-btn {
+  margin-top: 32px;
+}
+
+#login-text {
+  margin-top: 24px;
+  font-size: 16px;
+  text-align: left;
+}
+
+#login-text a {
+  color: #1f3bb3;
+}
