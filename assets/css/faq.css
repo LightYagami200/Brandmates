@@ -69,3 +69,16 @@
 #faq-area .panel p {
   font-size: 16px;
 }
+
+/* Responsiveness */
+@media screen and (max-width: 1280px) {
+  #faq-area {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #faq-area {
+    width: 100%;
+  }
+}
