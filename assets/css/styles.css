@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 hr {
   border: none;
   height: 1px;

@@ -31,8 +31,8 @@
         </a>
       </div>
       <ul>
-        <li><a href="#features">Product</a></li>
-        <li><a href="#pricing">Pricing</a></li>
+        <li><a onclick="Jump('#features')">Product</a></li>
+        <li><a onclick="Jump('#pricing')">Pricing</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -52,7 +52,7 @@
         </h1>
         <p>Track, benchmark and optimize your social media performance.</p>
         <div id="btn-area">
-          <a href="#signup" class="main-btn filled"><span>❯</span> Get Started</a>
+          <a href="register.html" class="main-btn filled"><span>❯</span> Get Started</a>
           <p class="grey">It's free</p>
         </div>
         <div id="trusted-by">
@@ -167,7 +167,7 @@
           <hr />
           <h2 class="price" id="price-small">$84</h2>
           <h2 class="price-period grey">per month</h2>
-          <a href="#signup" class="main-btn filled">Try it for Free</a>
+          <a href="register.html" class="main-btn filled">Try it for Free</a>
         </div>
       </div>
       <div class="pricing-card">
@@ -176,7 +176,7 @@
         <hr />
         <h2 class="price" id="price-growing">$120</h2>
         <h2 class="price-period grey">per month</h2>
-        <a href="#signup" class="main-btn empty-black"><span>❯</span> Try it for Free</a>
+        <a href="register.html" class="main-btn empty-black"><span>❯</span> Try it for Free</a>
       </div>
       <div class="pricing-card">
         <h3 class="title">Enterprise</h3>
@@ -186,7 +186,7 @@
         <h2 class="price-period-placeholder grey">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         </h2>
-        <a href="#signup" class="main-btn empty-black"><span>❯</span> Request</a>
+        <a href="register.html" class="main-btn empty-black"><span>❯</span> Request</a>
       </div>
     </div>
 
@@ -256,7 +256,7 @@
         <form action="register.html" method="get">
           <input type="email" name="email" id="trial-email" placeholder="Email address" required />
           <button type="submit" class="main-btn filled"><span>❯</span> Try it for Free</button>
-          <p class="grey">Already a customer? <a href="#">Log In</a></p>
+          <p class="grey">Already a customer? <a href="login.html">Log In</a></p>
         </form>
       </div>
     </div>
@@ -307,6 +307,7 @@
   </section>
 
   <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/jump.js/dist/jump.min.js"></script>
   <script src="./assets/js/index.js"></script>
 </body>
 
